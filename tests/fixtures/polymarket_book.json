@@ -1,0 +1,1 @@
+{"market": "0xabc", "asset_id": "123", "bids": [{"price": "0.40", "size": "100"}, {"price": "0.45", "size": "300"}], "asks": [{"price": "0.50", "size": "200"}, {"price": "0.48", "size": "0"}, {"price": "0.46", "size": "500"}]}

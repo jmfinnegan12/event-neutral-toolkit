@@ -1,0 +1,1 @@
+{"slug": "will-it-snow-in-testville", "question": "Will it snow in Testville by December 31?", "outcomes": "[\"Yes\", \"No\"]", "clobTokenIds": "[\"111\", \"222\"]", "endDate": "2026-12-31T23:59:00Z", "volumeNum": 2053.1, "bestBid": 0.1, "bestAsk": 0.18, "feesEnabled": false}

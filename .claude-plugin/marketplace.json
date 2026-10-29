@@ -1,6 +1,7 @@
 {
   "name": "event-neutral-toolkit",
   "owner": { "name": "Jim Finnegan" },
+  "description": "Prediction-market skills for business hedging",
   "plugins": [
     {
       "name": "event-neutral",

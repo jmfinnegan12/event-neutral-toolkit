@@ -601,7 +601,7 @@ def show_book(r):
     if not r["filled"]:
         return [f"Nothing is on offer on the {r['side']} side of {r['id']}."]
     lines = [f"Best {r['side']} ask {price(r['best_ask'])}. {r['within']:,.0f} contracts on offer within "
-             f"{r['window']:g} of it; {r['on_offer']:,.0f} in the whole book."]
+             f"{r['window'] * 100:g} cents of it; {r['on_offer']:,.0f} in the whole book."]
     if r["filled"] < r["wanted"]:
         lines.append(f"Only {r['filled']:,.0f} of the {r['wanted']:,.0f} wanted are on offer.")
     lines.append(f"Buying {r['filled']:,.0f} averages {price(r['average_price'])} and reaches {price(r['last_price'])}, "
@@ -621,9 +621,10 @@ def show_hedge(r):
         lines.append(f"Only {r['filled']:,.0f} are on offer, so this covers {money(r['covered'])}.")
     lines.append(f"Cost {money(r['cost'])} at an average {price(r['average_price'])}, plus {money(r['fee'])} in fees: "
                  f"{money(r['total_cost'])} in all.")
-    lines.append(f"If {r['pays_if']}: the business loses {money(r['loss'])}, the contracts pay {money(r['covered'])}, "
-                 f"net {money(r['if_event'])}.")
-    lines.append(f"Otherwise: the contracts expire worthless, net {money(r['if_not'])}.")
+    other = "yes" if r["side"] == "no" else "no"
+    lines.append(f"If it settles {r['side']}: the business loses {money(r['loss'])}, the contracts pay "
+                 f"{money(r['covered'])}, net {money(r['if_event'])}.")
+    lines.append(f"If it settles {other}: the contracts expire worthless, net {money(r['if_not'])}.")
     return lines
 
 

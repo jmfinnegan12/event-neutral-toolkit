@@ -1,0 +1,5 @@
+{
+  "name": "event-neutral",
+  "description": "Find Kalshi and Polymarket markets that match a business risk, read their rules, check order-book depth, and size a hedge",
+  "author": { "name": "Jim Finnegan" }
+}

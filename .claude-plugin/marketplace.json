@@ -1,0 +1,11 @@
+{
+  "name": "event-neutral-toolkit",
+  "owner": { "name": "Jim Finnegan" },
+  "plugins": [
+    {
+      "name": "event-neutral",
+      "source": "./",
+      "description": "Find Kalshi and Polymarket markets that match a business risk, read their rules, check order-book depth, and size a hedge"
+    }
+  ]
+}

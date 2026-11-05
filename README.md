@@ -1,6 +1,8 @@
 # Event Neutral toolkit
 
-Agent skills that find Kalshi and Polymarket prediction markets matching a business risk, read what each one actually settles on, check how much can be bought near the price, and size a hedge.
+Agent skills for improving business outcomes with prediction markets. Hedging, intelligence, risk management.
+
+The skills find Kalshi and Polymarket markets matching a business risk, read what each one actually settles on, check how much can be bought near the price, and size a hedge.
 
 They read public market data only. Nothing needs an account or API key, and nothing places trades. The one script needs Python 3.9 or later and no packages.
 
@@ -70,8 +72,6 @@ Fees are estimates from each exchange's published table:
 Unofficial. Not affiliated with or endorsed by Kalshi or Polymarket.
 
 Provided for educational and informational purposes only. Nothing here is financial, investment, insurance, legal or tax advice.
-
-The numbers can be wrong. Order books are snapshots that change quickly, fees are estimates from published tables, and a market's rules may not settle on exactly the risk you mean to cover. Check the market's rules, prices and fees on the exchange before you trade.
 
 The software is provided "as is", without warranty of any kind, under the MIT license (see [LICENSE](LICENSE)), and the authors are not liable for any loss from its use. You are responsible for following each exchange's terms and the laws, tax rules and eligibility requirements that apply to you.
 

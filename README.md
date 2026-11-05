@@ -69,4 +69,6 @@ Fees are estimates from each exchange's published table:
 
 `src/eventneutral.py` is the only source. `python tools/sync.py` copies it into each skill, because skill installers copy only a skill's own folder. `python -m unittest discover tests` runs the tests, which also fail if a copy is out of date.
 
-Built with Claude Code. MIT license.
+---
+
+MIT license, see [LICENSE](LICENSE).

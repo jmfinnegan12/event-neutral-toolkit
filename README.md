@@ -69,9 +69,9 @@ Fees are estimates from each exchange's published table:
 
 Unofficial. Not affiliated with or endorsed by Kalshi or Polymarket.
 
-Nothing here is financial, investment, insurance, legal or tax advice. The skills read public market data and do arithmetic on it; whether to hedge, and every trade made, is yours.
+Provided for educational and informational purposes only. Nothing here is financial, investment, insurance, legal or tax advice.
 
-The numbers can be wrong. Order books are snapshots that change quickly, fees are estimates from published tables, and a market's rules may not settle on exactly the risk you mean to cover. Check the market's rules, prices and fees on the exchange before you trade. Hedging costs money and can lose more than it saves.
+The numbers can be wrong. Order books are snapshots that change quickly, fees are estimates from published tables, and a market's rules may not settle on exactly the risk you mean to cover. Check the market's rules, prices and fees on the exchange before you trade.
 
 The software is provided "as is", without warranty of any kind, under the MIT license (see [LICENSE](LICENSE)), and the authors are not liable for any loss from its use. You are responsible for following each exchange's terms and the laws, tax rules and eligibility requirements that apply to you.
 
